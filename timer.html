@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang='en'>
+<head></head>
+<body>
+
+
+<h3>Custom Timer</h3>
+
+Minutes: <input type="text" id="userMin" size="5" value="30">
+<button onclick="setTimer()">Set the time</button>
+
+
+<h1><span id="countMinutes"></span> <span id="countSeconds"></span></h1>
+
+<button id="restart" onClick="stopTimer = setInterval(customTimer, 1000)">Start the Timer</button>
+
+<button onClick="clearInterval(stopTimer), changeWords()">Pause</button>
+
+<script src='timer.js'></script>
+</body>
+</html>
