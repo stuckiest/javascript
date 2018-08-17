@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang='en'>
-<head></head>
+<head>
+   <link rel="stylesheet" href="timer.css">
+</head>
 <body>
 
 
@@ -15,6 +17,11 @@ Minutes: <input type="text" id="userMin" size="5" value="30">
 <button id="restart" onClick="stopTimer = setInterval(customTimer, 1000)">Start the Timer</button>
 
 <button onClick="clearInterval(stopTimer), changeWords()">Pause</button>
+
+<button id="btn1">Button</button>
+<button id="btn2">Button</button>
+<button id="btn3">Button</button>
+<button id="btn4">Button</button>
 
 <script src='timer.js'></script>
 </body>
