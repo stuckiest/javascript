@@ -3,9 +3,10 @@
 <head>
    <link rel="stylesheet" href="timer.css">
 </head>
-<body>
+<body id="beaut1">
 
-
+<!-- To do: make function that changes id of <body> onClick of button.  Ultimately would like a function that takes
+button id as argument and uses that to pick the <body> id.  1 function for all four changes-->
 <h3>Custom Timer</h3>
 
 Minutes: <input type="text" id="userMin" size="5" value="30">
@@ -18,10 +19,10 @@ Minutes: <input type="text" id="userMin" size="5" value="30">
 
 <button onClick="clearInterval(stopTimer), changeWords()">Pause</button>
 
-<button id="btn1">Button</button>
-<button id="btn2">Button</button>
-<button id="btn3">Button</button>
-<button id="btn4">Button</button>
+<button id="btn1" onclick="changeBackgrnd()">Button</button>
+<button id="btn2" onclick="changeBackgrnd()">Button</button>
+<button id="btn3" onclick="changeBackgrnd()">Button</button>
+<button id="btn4" onclick="changeBackgrnd()">Button</button>
 
 <script src='timer.js'></script>
 </body>

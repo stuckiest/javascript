@@ -1,3 +1,29 @@
+/*styling of backgrounds*/
+#default {
+	background-color: pink; /*eventually change this to black or navyblue*/
+}
+
+#beaut1 {
+	background-image: url("Beaut1.jpg");
+	/*background-repeat: no-repeat;
+	background-position: center;*/
+}
+
+#beaut2 {
+	background-image: url("Beaut2.jpg");
+}
+
+#beaut3 {
+	background-image: url("Beaut3.jpg");
+}
+
+#beaut4 {
+	background-image: url("Beaut4.jpg");
+}
+
+
+
+/*styling of background buttons */
 #btn1 {
 	height: 150px;
 	width: 200px;
